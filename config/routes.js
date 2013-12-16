@@ -37,7 +37,8 @@ module.exports.routes = {
   }, 
 
   '/user/new': {
-    view: 'user/new'
+    controller: 'UserController',
+    action: 'new'
   }
 
   /*
